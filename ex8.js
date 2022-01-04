@@ -11,6 +11,9 @@ let veces = 5
 let i = 0
 
 while (i<=veces) {
-    console.log("Ejecuto!")
-    i++
+    console.log("Ejecuto!");
+    i++;
+    if(i==5){
+        i++;
+    }
 }

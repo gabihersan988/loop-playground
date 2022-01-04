@@ -13,18 +13,28 @@
  let numeroInicial=0;
  let numeroFinal=10;
  // Elimina el código siguiente y codifica la solución
+ let i=0;
+ let tocaHexagono = 4; 
+ while(i<10){
+   if(i==tocaHexagono){
+    dibujarHexagono();
+   }else{
+    dibujarCirculo();
+   }
+  
+  i++;
+ }
  
- dibujarCirculo()
- dibujarCirculo()
- dibujarCirculo()
 
 
  
 
  /**
-  * BONUS: Modifica el bucle para introducir la variable 'tocaHexagono'. El bucle debe funcionar como antes, pero ahora, cuando nos encotremos en la iteración número 'tocaHexagono', se debe pintar un hexagono amarillo. Investiga el fichero "mi-script.js" para averiguar como podríamos pintar un hexágono
+  * BONUS: Modifica el bucle para introducir la variable 'tocaHexagono'. El bucle debe funcionar como antes, pero ahora, 
+  * cuando nos encotremos en la iteración número 'tocaHexagono', se debe pintar un hexagono amarillo. 
+  * Investiga el fichero "mi-script.js" para averiguar como podríamos pintar un hexágono
   */
-let tocaHexagono = 4;
+
 
 /**
  * Ejemplo: si numeroInicial=0, numeroFinal=10, y tocaHexagono=4, deberíamos pintar:
@@ -32,3 +42,4 @@ let tocaHexagono = 4;
  * circulo circulo circulo círculo hexagono círculo círculo círculo círculo círculo
  * 
  */
+ 
